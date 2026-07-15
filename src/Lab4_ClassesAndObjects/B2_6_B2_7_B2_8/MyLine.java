@@ -83,7 +83,6 @@ public class MyLine {
         return begin.distance(end);
     }
 
-    // Gradient (radian)
     public double getGradient() {
         return Math.atan2(
                 end.getY() - begin.getY(),

@@ -5,7 +5,6 @@ public class MyCircle {
     private MyPoint center;
     private int radius;
 
-    // Constructors
     public MyCircle() {
         this(new MyPoint(0, 0), 1);
     }
@@ -19,7 +18,6 @@ public class MyCircle {
         this.radius = radius;
     }
 
-    // Getters & Setters
     public MyPoint getCenter() {
         return center;
     }
@@ -36,7 +34,6 @@ public class MyCircle {
         this.radius = radius;
     }
 
-    // Center coordinates
     public int getCenterX() {
         return center.getX();
     }
@@ -61,17 +58,14 @@ public class MyCircle {
         center.setXY(x, y);
     }
 
-    // Area
     public double getArea() {
         return Math.PI * radius * radius;
     }
 
-    // Circumference
     public double getCircumference() {
         return 2 * Math.PI * radius;
     }
 
-    // Distance between centers
     public double distance(MyCircle another) {
         return center.distance(another.center);
     }

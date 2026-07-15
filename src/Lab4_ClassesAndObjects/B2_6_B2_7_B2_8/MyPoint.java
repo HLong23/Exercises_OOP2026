@@ -5,7 +5,6 @@ public class MyPoint {
     private int x;
     private int y;
 
-    // Constructors
     public MyPoint() {
         this(0, 0);
     }
@@ -15,7 +14,6 @@ public class MyPoint {
         this.y = y;
     }
 
-    // Getters
     public int getX() {
         return x;
     }
@@ -24,7 +22,6 @@ public class MyPoint {
         return y;
     }
 
-    // Setters
     public void setX(int x) {
         this.x = x;
     }
@@ -42,19 +39,16 @@ public class MyPoint {
         return new int[]{x, y};
     }
 
-    // Distance to another coordinate
     public double distance(int x, int y) {
         int dx = this.x - x;
         int dy = this.y - y;
         return Math.sqrt(dx * dx + dy * dy);
     }
 
-    // Distance to another point
     public double distance(MyPoint another) {
         return distance(another.x, another.y);
     }
 
-    // Distance to origin
     public double distance() {
         return distance(0, 0);
     }

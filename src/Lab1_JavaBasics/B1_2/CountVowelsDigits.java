@@ -1,4 +1,4 @@
-package Lab1.B1_2;
+package Lab1_JavaBasics.B1_2;
 
 import java.util.Scanner;
 
