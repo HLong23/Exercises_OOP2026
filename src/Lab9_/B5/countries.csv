@@ -1,0 +1,15 @@
+code,name,population,area,gdp,continent
+VN,Vietnam,97338579,331212,408.8,Asia
+CN,China,1411750000,9596961,17700.9,Asia
+JP,Japan,125700000,377975,4231.1,Asia
+US,United States,331900000,9833520,25462.7,North America
+CA,Canada,38250000,9984670,2213.7,North America
+BR,Brazil,214300000,8515767,1920.1,South America
+AR,Argentina,45810000,2780400,632.8,South America
+FR,France,68000000,551695,2957.9,Europe
+DE,Germany,83200000,357022,4082.5,Europe
+GB,United Kingdom,67500000,243610,3070.7,Europe
+EG,Egypt,109300000,1002450,404.1,Africa
+ZA,South Africa,60400000,1221037,419.0,Africa
+AU,Australia,26000000,7692024,1690.0,Oceania
+NZ,New Zealand,5120000,268021,249.9,Oceania
