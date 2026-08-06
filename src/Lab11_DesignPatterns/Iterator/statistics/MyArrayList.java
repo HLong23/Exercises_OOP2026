@@ -20,7 +20,7 @@ public class MyArrayList extends MyAbstractList {
 
     @Override
     public void add(double data) {
-        if (size >= data.length) {
+        if (size >= data) {
             allocateMore();
         }
         this.data[size] = data;
